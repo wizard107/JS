@@ -1,1 +1,14 @@
-tesz
+.myButton{
+	color:white;
+    background-color: orange;
+    
+    border: 2px solid white;
+    border-color: #e7e7e7;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+body{
+    background-color: orange;
+}
