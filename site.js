@@ -21,9 +21,17 @@ function myTimer(){
 }
 var countdown;
 function myTimer2() {
-    countdown = setInterval(myTimer3,1000);
-    myTimer3();
+    countdown = setInterval(myTimer4,10);
+    myTimer4();
   }
+
+function myTimer4(){
+    var ms = counter%100;
+    var sec = Math.floor(counter/100);
+    var c = counter++;
+    
+    document.getElementById("demo").innerHTML = sec.toString() + ':' + ms.toString();
+}
 
 function myTimer3(){
     var min = Math.floor(counter/60);
